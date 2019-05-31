@@ -31,14 +31,14 @@ public class ShareService: ServiceAuthentication {
          https://github.com/dabear/NightscoutShareServer
          */
 
-        /*
-        let customServer = "https://REPLACEME"
+        
+        let customServer = "https://ceat1.herokuapp.com"
         let customServerTitle = "Custom"
 
         credentials[2].options?.append(
                 (title: LocalizedString(customServerTitle, comment: "Custom share server option title"),
                 value: customServer))
-        */
+        
 
         if let username = username, let password = password, let url = url {
             isAuthorized = true
